@@ -1,0 +1,1 @@
+document.write(document.getElementsByClassName("num1")[4].value);

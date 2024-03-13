@@ -1,0 +1,19 @@
+#result{
+border: 1px black solid;
+width: 200px;
+margin: 10px;
+}
+#numbers{
+    border: 1px black solid;
+    width: 250px;
+    margin: 10px;
+}
+.num1{
+    width: 60px;
+    height: 30px;
+    margin: 5px;
+}
+.main{
+    width: 300px;
+    border: 1px solid black;
+}

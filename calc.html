@@ -13,42 +13,43 @@
         </h1>
         <div class="main" >
                     <div class="patie1">
+                        
                            <p id="result">------</p>
-                           <p id="numbers">----</p>
+                           <input type="text"  id="numbers">
                     </div>
                     <div class="partie2">
                            <div class="section">
-                               <button class="num1" > C</button>
-                               <button class="num1"> +/-</button>
+                               <button class="num1"   > C</button>
+                               <button class="num1" onclick="clickeDivision()"> /</button>
                                <button class="num1"> Supp</button>
-                               <button class="num1"> *</button>
+                               <button class="num1" onclick="clickerMultiplication()"> *</button>
                            </div>
                            <div class="section">
-                            <button class="num1" value=7> 777</button>
-                            <button class="num1" value=8> 8</button>
-                            <button class="num1"value=9> 9</button>
-                            <button class="num1"> -</button>
-                           </div>
-
-                           <div class="section">
-                            <button class="num1" value=4> 4</button>
-                            <button class="num1" value=5> 5</button>
-                            <button class="num1" value=6> 6</button>
-                            <button class="num1"> +</button>
+                            <button class="num1" value=7 onclick="clickeNum7()">7</button>
+                            <button class="num1" value=8 onclick="clickeNum8()" > 8</button>
+                            <button class="num1"value=9 onclick="clickeNum9()"> 9</button>
+                            <button class="num1" value="-" onclick="clickerMoins()"> -</button>
                            </div>
 
                            <div class="section">
-                            <button class="num1"> 1</button>
-                            <button class="num1"> 2</button>
-                            <button class="num1"> 3</button>
-                            <button class="num1"> =</button>
+                            <button class="num1" value=4 onclick="clickeNum4()"> 4</button>
+                            <button class="num1" value=5 onclick="clickeNum5()"> 5</button>
+                            <button class="num1" value=6 onclick="clickeNum6()"> 6</button>
+                            <button class="num1" onclick="clickerplus()"> +</button>
                            </div>
 
                            <div class="section">
-                            <button class="num1" value=0> 0</button>
-                            <button class="num1" value=(> (</button>
-                            <button class="num1" value=)> )</button>
-                            <button class="num1" value=.> .</button>
+                            <button class="num1" onclick="clickeNum1()"> 1</button>
+                            <button class="num1" onclick="clickeNum2()"> 2</button>
+                            <button class="num1" onclick="clickeNum3()"> 3</button>
+                            <button class="num1"  onclick="calculer()"> =</button>
+                           </div>
+
+                           <div class="section">
+                            <button class="num1" value=0 onclick="clickeNum0()"> 0</button>
+                            <button class="num1" value=( onclick="clickparant1()"> (</button>
+                            <button class="num1" value=)  onclick="clickparant2()">  )</button>
+                            <button class="num1" value=. onclick="clickpoint()"> .</button>
                            </div>
                     </div>
         </div>

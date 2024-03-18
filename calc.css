@@ -18,3 +18,25 @@ margin: 10px;
     border: 1px solid black;
 }
 
+body{
+ 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #02569a;
+}
+.main{
+    background-image: url("bg.png");
+}
+h1{
+
+    margin-top: 50PX;
+    color: aliceblue;
+}
+.num1{
+    color: #02569a;
+    font-size: 20px;
+    font-weight: bold;
+}

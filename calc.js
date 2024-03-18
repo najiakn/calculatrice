@@ -72,4 +72,6 @@ function clickeNum1(){
     function calculer(){
          document.getElementById("numbers").innerHTML=document.getElementById("numbers").value;
     }
-    
+    function vider(){
+      document.getElementById("numbers").value="";
+    }
